@@ -215,7 +215,7 @@ class Ekho {
 
     /* Set tempo delta
      * Parameter:
-     *    tempo_delta (-50 .. 100, in percent)
+     *    tempo_delta (-50 .. 300, in percent)
      *    If input out of range, tempo_delta will restore to 0
      */
     void setSpeed(int tempo_delta);
